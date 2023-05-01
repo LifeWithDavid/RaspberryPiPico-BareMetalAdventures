@@ -1,1 +1,4 @@
-
+Life ith David
+Bare Metal Adventures, Chapter 03, Demonstration 4
+Demonstrate initializing and using a UART exclusively with assembly language.
+The C/C++ SDK is only used for starting the program

@@ -1,1 +1,3 @@
-
+Bare Metal Adventures, Chapter 03, Demonstration 2
+This demonatrates using a UART from assembly language using the C functions
+getchar() and putchar().

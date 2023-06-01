@@ -1,5 +1,6 @@
 //bare metal assembly blinking routine
 //Life with David - BMA Chapter 04
+.section .reset, "ax"
 .global start
 start:
 

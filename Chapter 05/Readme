@@ -1,6 +1,6 @@
 Files for Life with David Bare Metal Adventures, Clocks, Chapter 05
 Download the files in the "Chapter 05" folder into the project folder on your PC.
-Add the "assembly.S" file from the desired "Demo" folder.
+Add the "assembly.S" file from the desired "BMA05-Demo0?" folder.
 Compile using:
    make all
    make link

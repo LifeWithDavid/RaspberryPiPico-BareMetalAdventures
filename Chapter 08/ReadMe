@@ -1,0 +1,3 @@
+RP2040 - Bare Metal Programming - Interrupts and Troubleshooting - BMA08
+
+Join David as he explores assembly language interrupts on the RP2040.  He also presents several debugging techniques that use no additional probes or emulators.  We’ll examine vector tables, UART communications, memory and register outputs and interrupt service routines.

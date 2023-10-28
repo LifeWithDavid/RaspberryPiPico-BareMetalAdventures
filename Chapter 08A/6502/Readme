@@ -1,1 +1,15 @@
 6502 file for the Hellorld challenge
+
+************6530 TIM status message *************
+ *  7052 30 2E FF 01 FF
+************program listing for outputing HELLORLD!
+.M  1000 A0 00 B9 11 10 F0 07 20
+.M  1008 C6 72 C8 4C 02 10 00 0E
+.M  1010 10 20 48 45 4C 4C 4F 52
+.M  1018 4C 44 21 00 07 00 0B 02
+******changing the PC and executing the program**
+.R  7052 30 2E FF 01 FF
+.:  1000
+.G HELLORLD!
+ *  100F 32 00 00 0A FF
+

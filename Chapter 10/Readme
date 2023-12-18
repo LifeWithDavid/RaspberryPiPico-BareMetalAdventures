@@ -1,1 +1,5 @@
 This repository holds the files for "Life with David" Bare Metal Adventures Chapter 10 - Raspberry Pi Pico - 6502 Emulator
+pico_emu_files has all the files you need to install on your Windows project folder.  You will use GCC for linking and compiling the ARM code.  
+  See Bare Metal Adventure Chapter 04 ( https://youtu.be/nM8lVeOYblY )for more info on the compiler.about how to use 
+as65_142 contains Frank Kingsman's as65 6502 compiler
+6502_65c02_functional_tests contains Klaus Dormann's program, considered the gold standard for testing 6502 emulators,  

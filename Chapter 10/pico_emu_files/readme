@@ -1,1 +1,3 @@
 These are the files you will need for compiling the 6502 program and linking and compiling the RP2040 6502 emulator using GCC.  See Life with David, Bare Metal Adventures, Chapter 10.
+If you want to skip the whole compiling process; use "final.uf2" to load into the Pico.  However, the emulator and 6502 functionnal test doesn't really do much at this point; 
+it just prints out registers for every break. (3 total in test program).

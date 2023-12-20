@@ -1,4 +1,4 @@
-/* Life with David BMA09 - linker script - emulator
+/* Life with David BMA10 - linker script - emulator
    Bootloader 2 goes to FLASH at 0x10000000, vector table at 0x10000100, 
    memcopy at 0x10000200, "reset" at 0x20000000
 */

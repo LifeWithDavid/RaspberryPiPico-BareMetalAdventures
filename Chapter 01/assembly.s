@@ -22,7 +22,7 @@ rst:
 	mov r1, #1			// load a 1 into register 1
 	lsl r1, r1, #25 	// move the bit over to align with GPIO25
 	ldr r0, =sio_base	// SIO base 
-	str r1, [r0, #36]  	// 0x20 GPIO output enable
+	str r1, [r0, #36]  	// 0x24 GPIO output enable
 
 led_loop:
 	str r1, [r0, #20] 	// 0x14 GPIO output value set

@@ -1,0 +1,7 @@
+These files are for Life with David “Bare Metal Adventures, Chapter 11”.  Included are the: 
+The Terminal Interface Monitor and EhBasic with the emulator, CA65 and LD65 and associated files.
+
+Add all these files to your project file to complile and link the 6502 emulator and TIM.  EhBasic can be started by changing the program counter in 
+TIM to 8000 and typing "G"
+
+final.uf2 is included with the Emulator, TIM, and EhBasic already compiled so you can get started without the compiling and linking step.

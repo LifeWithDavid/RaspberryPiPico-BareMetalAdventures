@@ -4,5 +4,5 @@ The Terminal Interface Monitor and Tiny Basic with the emulator, CA65 and LD65 a
 Add all these files to your project file to complile and link the 6502 emulator and TIM.  Tiny Basic can be loaded using the 
 PICO_TIM_TINYBASIC.txt Mos Technology hex file with the "LH" option under TIM.
 
-A UF2 file is included with the Emulator and TIM so you can get started without compiling oand linking.
+final.uf2 is included with the Emulator and TIM already compiled so you can get started without the compiling and linking step.
 

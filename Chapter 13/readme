@@ -1,5 +1,6 @@
-These are the demo files for Life with David, Bare Metal Adventures, Chapter 13, Two Core Operations (https://youtu.be/KACOp_5wuvM).  
-Demo 1 demonstrates using the CPUID and FIFOs, while Demo 2 demoantrates spinlocks.
+These are the demo files for Life with David, RP2040 Bare Metal Adventures, 
+Chapter 13, Two Core Operations (https://youtu.be/KACOp_5wuvM).  
+Demo 1 demonstrates using the CPUID and FIFOs, while Demo 2 demostrates spinlocks.
 
 Copy all the files in each folder into your project folder.  Type "make clean" to clean up the project folder, 
 and then type "make full" to compile and link the programs.  Copy over "final.uf2" to the Pico to execute.

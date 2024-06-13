@@ -1,1 +1,2 @@
-
+Files for Demonstration 4, Bare Metal DMA.  This demonstrates peripheral to memory transfer using 
+8 bit bytes.  The read address is not incremented while the write address is incremented.

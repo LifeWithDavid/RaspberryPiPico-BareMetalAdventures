@@ -1,1 +1,3 @@
-
+Files for Demonstration 3, Bare Metal DMA.  Memory to memory transfer using 32 bit words.
+It demonstrates how the Number of Transfers Register does not need to be re-written each time the DMA
+process is triggered.

@@ -1,3 +1,5 @@
 These files are for Life with David, Bare Metal Adventures, Chapter 14 - Bare Metal Direct Memeory Access
 Install the files for each demo in it's own directory, and then use the Command Prompt for VS studio to type 
-"make clean" and "make full"
+"make clean" and "make full".
+
+The DMA control register worksheet is included to help manually configure the DMA Control Register.

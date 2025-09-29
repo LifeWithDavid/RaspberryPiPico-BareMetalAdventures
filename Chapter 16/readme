@@ -1,0 +1,15 @@
+These are the files for Life with David, Bare Metal Adventures, Chapter 16, Multi-core, multi-program, multi-memory execution.  
+This includes the source, CMakeLists, header, and linker script files for the five demo programs in the chapter, they are:
+
+Demo 1) Transferring execution of core 0 from a C program in FLASH memory to an assembly program in FLASH memory.
+Demo 2) Copying an assembly program from FLASH memory to SRAM memory, and then transferring execution of core 0 from a C program in 
+        FLASH to the assembly program in SRAM.
+Demo 3) Starting Core 1 and transferring into an endless loop inside the C program.  Meanwhile, Core 0 copies the assembly program 
+        from FLASH to SRAM, and then transfers execution from the C program in FLASH to the assembly program in SRAM.
+Demo 4) Starting Core 1 and transferring into an endless loop inside the C program.  Meanwhile, Core 0 copies the assembly program 
+        from FLASH to SRAM, copies a 64 kB dtat file from FLASH to SRAM, and then transfers execution from the C program in FLASH 
+        to the assembly program in SRAM.
+Demo 5) Putting it all together.  Starting Core 1 and transferring execution into the keyboard display C program in FLASH.  This 
+        includes the PIO program and header file needed for the keyboard display.  Meanwhile, Core 0 using the Startup C program, 
+        copies the assembly program from FLASH to SRAM, copies a 64 kB data file from FLASH to SRAM, and then transfers execution 
+        from the startup C program in FLASH to the assembly program in SRAM.

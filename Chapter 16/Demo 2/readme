@@ -1,5 +1,5 @@
 These are the files for Life with David, Bare Metal Adventures, Chapter 16, Multi-core, multi-program, multi-memory execution.  
-This includes the source, CMakeLists, header, and linker script files for Demo 2:
+This includes the source, CMakeLists, and linker script files for Demo 2:
 
 Demo 2) Copying an assembly program from FLASH memory to SRAM memory, and then transferring execution of core 0 from a C program in 
         FLASH to the assembly program in SRAM.

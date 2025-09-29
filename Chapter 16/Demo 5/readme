@@ -1,0 +1,7 @@
+These are the files for Life with David, Bare Metal Adventures, Chapter 16, Multi-core, multi-program, multi-memory execution.  
+This includes the source, CMakeLists, header, and linker script files for Demo 5:
+
+Demo 5) Putting it all together.  Starting Core 1 and transferring execution into the keyboard display C program in FLASH.  This 
+        includes the PIO program and header file needed for the keyboard display.  Meanwhile, Core 0 using the Startup C program, 
+        copies the assembly program from FLASH to SRAM, copies a 64 kB data file from FLASH to SRAM, and then transfers execution 
+        from the startup C program in FLASH to the assembly program in SRAM.

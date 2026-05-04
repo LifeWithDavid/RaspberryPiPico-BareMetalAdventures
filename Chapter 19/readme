@@ -1,0 +1,20 @@
+These are the files for the Life with David, Bare Metal Adventures: Compiling and running Microsoft's m6502 BASIC on an RP2040.  
+They include: 
+  The original Microsoft source program (m6502.asm) with original depricated syntax
+  The m6502 BASIC with updated ca65 syntax (Pico_TIM_m6502.asm)
+  The ca65 configuration file (ptim_m6502_ld65.cfg)
+  A makefile for the ca65 compiling process (makefile)
+  The TIM monitor for the emulated 6502 (Pico_TIM.asm)
+  ***The above programs should be located in a separate directory to create the emu_prog.prg file that is then copied into the 
+    main project director.  Other programs, such as ca65.exe, da65.exe, ld65.exe, and srec_cat.exe should also be located in 
+    this directory.
+  *** The following files should be located in the main project directory:
+  The RP2040 6502 emulator (assembly.S)
+  The PIO program for the RP2040 keyboard scanning (kb_scan_decode.pio)
+  The keyboard and display program for Blinken (kbDisplayIntegrated.c)
+  The linker file for the emulator (memmap_staged.LD)
+  The startup file for Blinken (startup.c)
+  The SSD1306 font file for Blinken (ssd1306_font.h)
+  The CMakeLists file for Blinken (CMakeLists.txt)
+See BMA, Chapter 18 for more info on compiling and running Blinken:  
+  

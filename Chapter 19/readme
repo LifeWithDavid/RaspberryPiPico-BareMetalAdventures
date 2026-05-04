@@ -1,4 +1,5 @@
-These are the files for the Life with David, Bare Metal Adventures, Chapter 19: Compiling and running Microsoft's m6502 BASIC on an RP2040.  
+These are the files for the Life with David, Bare Metal Adventures, Chapter 19: Compiling and running Microsoft's m6502 BASIC on an RP2040. 
+https://youtu.be/lKHKttM7v0Y
 They include: 
   The original Microsoft source program (m6502.asm) with original depricated syntax
   The m6502 BASIC with updated ca65 syntax (Pico_TIM_m6502.asm)

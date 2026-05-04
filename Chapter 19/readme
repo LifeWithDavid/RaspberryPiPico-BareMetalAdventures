@@ -5,6 +5,7 @@ They include:
   The ca65 configuration file (ptim_m6502_ld65.cfg)
   A makefile for the ca65 compiling process (makefile)
   The TIM monitor for the emulated 6502 (Pico_TIM.asm)
+  A Python program for converting numbers preceded with "@" from octal to hexadecimal (octal_conv.py)
   ***The above programs should be located in a separate directory to create the emu_prog.prg file that is then copied into the 
     main project director.  Other programs, such as ca65.exe, da65.exe, ld65.exe, and srec_cat.exe should also be located in 
     this directory.
@@ -17,4 +18,5 @@ They include:
   The SSD1306 font file for Blinken (ssd1306_font.h)
   The CMakeLists file for Blinken (CMakeLists.txt)
 See BMA, Chapter 18 for more info on compiling and running Blinken:  
-  
+Also included is a .uf2 file of the entire emulator, Blinken interface, TIM, and m6502 BASIC
+  if you don't want to go through the compilation process (BMA19_m6502.uf2)
